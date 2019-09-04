@@ -7,7 +7,6 @@ function Welcome(props) {
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
       <Welcome name="Sara" />
       <Router />
       <Welcome name="Edite" />

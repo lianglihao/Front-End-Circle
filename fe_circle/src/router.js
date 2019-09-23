@@ -10,18 +10,24 @@ import Notfound from './pages/notfound/404'
 import { isLogin } from './utils/isLogin'
 
 function BasicRoute() {
-    return (
-        <Router>
-            {/* exact 完全匹配路径 */}
-            <Switch>
-                <Route exact path="/" render={() => 
-                    (isLogin() ? <Home /> : <Redirect to="/login" />)
-                } />
-                <Route exact path="/login" component={ Login } />
-                <Route component={ Notfound } />
-            </Switch>
-        </Router>
-    )
+  return (
+    <Router>
+      {/* exact 完全匹配路径 */}
+      <Switch>
+        <Route exact
+          path="/"
+          render={() =>
+            (isLogin() ? <Home /> : <Redirect to="/login" />)
+          }
+        />
+        <Route component={Login}
+          exact
+          path="/login"
+        />
+        <Route component={Notfound} />
+      </Switch>
+    </Router>
+  )
 }
 
 export default BasicRoute

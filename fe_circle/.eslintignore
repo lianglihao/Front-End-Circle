@@ -1,0 +1,5 @@
+/src/styles/**
+/node_modules/*
+/dist/**
+App.test.js
+serviceWorker.js

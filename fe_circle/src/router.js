@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 
 // pages
-import Home from './pages/Home/home'
+import Home from './pages/Home/Home'
 import Login from './pages/Login/Login'
 import Notfound from './pages/Notfound/404'
 

@@ -2,8 +2,7 @@ function test() {
   const a = 1
   const arr = [1, 2, 3]
   const obj = {
-    name: 'lianglihao',
-    test: 'testgithub'
+    name: 'lianglihao'
   }
 
   let b = 2

@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom'
 class Home extends Component {
 
   componentDidMount() {
+    // document.title = '首页'
+  }
 
+  componentWillUnmount() {
+    // this.destroy()
   }
 
   render() {

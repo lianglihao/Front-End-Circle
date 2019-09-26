@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from 'react'
 // import { observable, action } from 'mobx'
-import { observer, inject } from 'mobx-react'
+// import { observer, inject } from 'mobx-react'
 
-@inject('UserStore')
-@observer
+// @inject('UserStore')
+// @observer
 class Username extends Component {
 
   render() {
